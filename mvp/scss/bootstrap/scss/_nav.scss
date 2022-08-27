@@ -85,13 +85,13 @@
   .nav-link {
     background: none;
     border: 0;
-    @include border-radius($nav-pills-border-radius);
+    /*@include border-radius($nav-pills-border-radius);*/
   }
 
   .nav-link.active,
   .show > .nav-link {
     color: $nav-pills-link-active-color;
-    @include gradient-bg($nav-pills-link-active-bg);
+    /*@include gradient-bg($nav-pills-link-active-bg);*/
   }
 }
 
